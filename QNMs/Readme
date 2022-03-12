@@ -1,0 +1,45 @@
+data_QNM.zip [Phys. Rev. D. 92 083014 (2019)]
+
+Quasi Normal mode frequencies to be used as a basis for generic 
+uncoupled scalar/vector/tensor perturbations of non-rotating black 
+holes in modified gravity theories. General Relativity corrections 
+are assumed to be small deviations of Einstein's theory
+
+
+@article{PhysRevD.100.044061,
+  title = {Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes},
+  author = {McManus, Ryan and Berti, Emanuele and Macedo, Caio F. B. and Kimura, Masashi and Maselli, Andrea and Cardoso, Vitor},
+  journal = {Phys. Rev. D},
+  volume = {100},
+  issue = {4},
+  pages = {044061},
+  numpages = {16},
+  year = {2019},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.100.044061},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.100.044061}}
+
+  
+------------------------------------------------------------------------------------
+
+data_QNM_II.zip [Phys. Rev. D. 100 0440161 (2019)]
+
+Quasi Normal mode frequencies for generic coupled scalar/vector/tensor 
+perturbations of non-rotating black holes in modified gravity theories. 
+We also provide quadratic corrections to the uncoupled perturbations
+
+
+@article{PhysRevD.100.044061,
+  title = {Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes},
+  author = {McManus, Ryan and Berti, Emanuele and Macedo, Caio F. B. and Kimura, Masashi and Maselli, Andrea and Cardoso, Vitor},
+  journal = {Phys. Rev. D},
+  volume = {100},
+  issue = {4},
+  pages = {044061},
+  numpages = {16},
+  year = {2019},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.100.044061},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.100.044061}}
