@@ -1,0 +1,41 @@
+THE REPOSITORY PROVIDES THE FORM OF THE METRIC FUNCTIONS AND OF 
+SCALAR FIELDS, FOR BLACK HOLE SOLUTIONS IN "EINSTEIN DILATON GAUSS 
+BONNET" GRAVITY AND "DYNAMICAL CHERN SIMONS" GRAVITY. THE GEODESIC 
+STRUCTURE OF THESE BLACK HOLES FOR MASSIVE/MASSLESS PARTICLES IS 
+ALSO PROVIDED. FOR BOTH GRAVITY THEORIES, ALL QUANTITIES ARE GIVEN 
+AS SMALL SPIN EXPANSION OF THE BH SPIN AND OF THE 
+THEORY COUPLING PARAMENTER (more details in main.nb)
+
+REFERENCE PAPERS
+
+++ Einstein Dilaton Gauss Bonnet Gravity [Rev.D 92 083014 (2015)`]
+
+@article{Maselli:2015tta,
+    author = "Maselli, Andrea and Pani, Paolo and Gualtieri, Leonardo and Ferrari, Valeria",
+    title = "{Rotating black holes in Einstein-Dilaton-Gauss-Bonnet gravity with finite coupling}",
+    eprint = "1507.00680",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    doi = "10.1103/PhysRevD.92.083014",
+    journal = "Phys. Rev. D",
+    volume = "92",
+    number = "8",
+    pages = "083014",
+    year = "2015"
+}
+
+++ Dynamical Chern Simons Gravity [Astrophys.J. 843 1, 25 (2017) ]
+
+@article{Maselli:2017kic,
+    author = "Maselli, Andrea and Pani, Paolo and Cotesta, Roberto and Gualtieri, Leonardo and Ferrari, Valeria and Stella, Luigi",
+    title = "{Geodesic models of quasi-periodic-oscillations as probes of quadratic gravity}",
+    eprint = "1703.01472",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.HE",
+    doi = "10.3847/1538-4357/aa72e2",
+    journal = "Astrophys. J.",
+    volume = "843",
+    number = "1",
+    pages = "25",
+    year = "2017"
+}
