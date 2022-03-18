@@ -1,10 +1,14 @@
-THE REPOSITORY CONTAINS THE TABULATED VALUES OF THE MASS QUADRUPOLE 
-AND THE CURRENT OCTUPOLE MULTIPOLE MOMENTS FOR FAST ROATING BOSOSN 
-STARS, AS A FUNCTION OF THE STELLAR MASS AND SPIN
+THE REPOSITORY CONTAINS DIFFERENT QUANTITIES RELATED 
+TO THE PROPERTIES AND THE STRUCTURE OF EXOTIC COMPACT 
+OBJECTS (ECO)
 
-REFERENCE PAPER
+DATA IN THE REPOSITORY
 
-ARxIV GR-QC: 2203.07442 
+++ BS_Multipoles.zip [from gr-qc: 2203.07442]
+
+Tabultaed values of the Mass Quadrupole and of the Current 
+Octupole multipole moments for fast rotating Boson Stars, 
+as a function of the stellar mass and spin
 
 @article{Vaglio:2022flq,
     author = "Vaglio, Massimo and Pacilio, Costantino and Maselli, Andrea and Pani, Paolo",
@@ -15,3 +19,6 @@ ARxIV GR-QC: 2203.07442
     month = "3",
     year = "2022"
 }
+
+
+------------------------------------------------------------------------------------
