@@ -1,0 +1,17 @@
+THE REPOSITORY CONTAINS THE TABULATED VALUES OF THE MASS QUADRUPOLE 
+AND THE CURRENT OCTUPOLE MULTIPOLE MOMENTS FOR FAST ROATING BOSOSN 
+STARS, AS A FUNCTION OF THE STELLAR MASS AND SPIN
+
+REFERENCE PAPER
+
+ARxIV GR-QC: 2203.07442 
+
+@article{Vaglio:2022flq,
+    author = "Vaglio, Massimo and Pacilio, Costantino and Maselli, Andrea and Pani, Paolo",
+    title = "{The multipolar structure of rotating boson stars}",
+    eprint = "2203.07442",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    month = "3",
+    year = "2022"
+}
