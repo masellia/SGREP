@@ -60,7 +60,7 @@ n=(\[ScriptL]-1)(\[ScriptL]+2)/2;
 
 {r1,r2}={2MBH(1+\[Epsilon]),Max[rinf/Abs[\[Omega]],2a0]};
 
-eqns=If[Mhalo==0\[Or]Rhalo==0,masterav-sourceav==0,mastera-sourcea==0];
+eqns=If[Mhalo==0\[Or]Rhalo==0,masterav+\[Mu] sourceav==0,mastera+\[Mu] sourcea==0];
 
 (* --- Boundary conditions at the horizon --- *)
 {XH,dXH}=If[Mhalo==0\[Or]Rhalo==0,{Xhorav,dXhorav}//.r->r1,{Xhora,dXhora}//.r->r1];
@@ -78,7 +78,7 @@ Return[{((X[r2]//.YH)dXI-XI(X'[r2]//.YH))/XI,1/(8\[Pi]) (\[ScriptL]+2)!/(\[Scrip
 ]
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*Axial homogeneous integrator*)
 
 
@@ -126,7 +126,7 @@ Y\[Infinity]=NDSolve[{eqns,X[r2]==XI,X'[r2]==dXI},X,{r,r2,r1},rules][[1]];
 
 W=((X[r]//.YH)(X'[r]//.Y\[Infinity])-(X[r]//.Y\[Infinity])(X'[r]//.YH))/drs//.r->r2;
 
-{S\[Delta],Sd\[Delta]}={Coefficient[masteraxialH[[2]],\[Delta][r]],Coefficient[masteraxialH[[2]],\[Delta]'[r]]};
+{S\[Delta],Sd\[Delta]}=-{Coefficient[masteraxialH[[2]],\[Delta][r]],Coefficient[masteraxialH[[2]],\[Delta]'[r]]};
 
 {Xout,Xin}={W^-1 ((X[r]//.YH)S\[Delta] drs-D[(X[r]//.YH) drs Sd\[Delta],r]),W^-1 ((X[r]//.Y\[Infinity])S\[Delta] drs-D[(X[r]//.Y\[Infinity]) drs Sd\[Delta],r])}//.r->rp;
 
@@ -171,8 +171,8 @@ PrintTemporary[N[{rinf/Abs[\[Omega]],2a0},20]];
 
 {H1H,H0H,KH,WH,\[Delta]\[Rho]H}={H1horp,H0horp,Khorp,Whorp,\[Rho]horp}//.{r->r1};
 
-eqns=Join[{masterpf[[1]]-\[Mu]*sourcepf[[1]]==0,masterpf[[2]]-\[Mu]*sourcepf[[2]]==0,masterpf[[3]]-\[Mu]*sourcepf[[3]]==0,
-		masterpf[[4]]-\[Mu]*sourcepf[[4]]==0,masterpf[[5]]-\[Mu]*sourcepf[[5]]==0},{H1[r1]==H1H,H0[r1]==H0H,KK[r1]==KH,W[r1]==WH,\[Delta]\[Rho][r1]==\[Delta]\[Rho]H}];
+eqns=Join[{masterpf[[1]]+\[Mu]*sourcepf[[1]]==0,masterpf[[2]]+\[Mu]*sourcepf[[2]]==0,masterpf[[3]]+\[Mu]*sourcepf[[3]]==0,
+		masterpf[[4]]+\[Mu]*sourcepf[[4]]==0,masterpf[[5]]+\[Mu]*sourcepf[[5]]==0},{H1[r1]==H1H,H0[r1]==H0H,KK[r1]==KH,W[r1]==WH,\[Delta]\[Rho][r1]==\[Delta]\[Rho]H}];
 
 (* --- Forward integration --- *)
 
