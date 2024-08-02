@@ -12,11 +12,15 @@ as a function of the stellar mass and spin
 
 @article{Vaglio:2022flq,
     author = "Vaglio, Massimo and Pacilio, Costantino and Maselli, Andrea and Pani, Paolo",
-    title = "{The multipolar structure of rotating boson stars}",
+    title = "{Multipolar structure of rotating boson stars}",
     eprint = "2203.07442",
     archivePrefix = "arXiv",
     primaryClass = "gr-qc",
-    month = "3",
+    doi = "10.1103/PhysRevD.105.124020",
+    journal = "Phys. Rev. D",
+    volume = "105",
+    number = "12",
+    pages = "124020",
     year = "2022"
 }
 
