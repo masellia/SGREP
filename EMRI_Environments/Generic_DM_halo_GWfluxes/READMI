@@ -1,0 +1,27 @@
+THE REPOSITORY PROVIDES A MATHEMATICA PACKAGE TO DETERMINE a) BACKGROUND SOLUTIONS, b) 
+GEODESICS PROPERTIES, c) AXIAL PERTURBATIONS AND GW FLUXES SOURCED BY AN EMRI; FOR A 
+SCHWARZSCHILD BH SURROUNDED BY A SPHERYCALLY SPHERICALLY MATTER DISTRIBUTION FOLLOWING 
+THE EINSTEIN CLUSTER PRESCRIPTION.
+
+THE NOTEBOOK result_axial.nb CONTAINS A BASIC TUTORIAL TO USE THE VARIOUS FUNCTIONS, 
+FOR THREE EXAMPLES, IN WHICH THE MATTER CONTENT IS GIVEN BY A DARK MATTER DISTRIBUTION 
+FOLLOWING THE HERNQUIST, THE NAVARRO-FRENK-WHITE AND THE EINSASTO DENSITY PROFILE. 
+AUXILIARY FILES ARE CONTAINED WITHIN THE src FOLDER.
+
+REFERENCE PAPERS
+
+++ Black holes surrounded by generic dark matter profiles: Appearance and gravitational-wave emission [Phys. Rev. D 107 104033 (2023)]
+
+@article{Figueiredo:2023gas,
+    author = "Figueiredo, Enzo and Maselli, Andrea and Cardoso, Vitor",
+    title = "{Black holes surrounded by generic dark matter profiles: Appearance and gravitational-wave emission}",
+    eprint = "2303.08183",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    doi = "10.1103/PhysRevD.107.104033",
+    journal = "Phys. Rev. D",
+    volume = "107",
+    number = "10",
+    pages = "104033",
+    year = "2023"
+}
