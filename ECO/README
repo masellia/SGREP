@@ -1,14 +1,17 @@
-THE REPOSITORY CONTAINS DIFFERENT QUANTITIES RELATED 
-TO THE PROPERTIES AND THE STRUCTURE OF EXOTIC COMPACT 
-OBJECTS (ECO)
+The repository contains different quantities related to the properties and 
+structure of exotic compact objects (ECOs).
 
 DATA IN THE REPOSITORY
 
-++ BS_Multipoles.zip [Phys. Rev. D 105 124020 (2022)]
+++ BS_Multipoles.zip
 
 Tabultaed values of the Mass Quadrupole and of the Current 
 Octupole multipole moments for fast rotating Boson Stars, 
 as a function of the stellar mass and spin
+
+REFERENCE PAPER
+
+++ Multipolar structure of rotating boson stars
 
 @article{Vaglio:2022flq,
     author = "Vaglio, Massimo and Pacilio, Costantino and Maselli, Andrea and Pani, Paolo",
@@ -23,6 +26,3 @@ as a function of the stellar mass and spin
     pages = "124020",
     year = "2022"
 }
-
-
-------------------------------------------------------------------------------------
