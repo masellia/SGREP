@@ -1,15 +1,18 @@
-THE REPOSITORY PROVIDES THE QUASI NORMAL MODE FREQUENCIES 
-OF RINGING BLACK HOLES, PARAMETRIZED IN TERMS OF GENERIC DEVIATIONS 
-FROM THE (SLOWLY ROTATING-) SCHWARZSCHILD CASE
+The repository provides the quasi-normal mode frequencies of ringing black holes, 
+parametrized in terms of generic deviations from the (slowly rotating) Schwarzschild case.
 
 DATA IN THE REPOSITORY
 
-++ data_QNM.zip [Phys. Rev. D. 92 083014 (2019)]
+++ data_QNM.zip
 
 Quasi Normal mode frequencies to be used as a basis for generic 
 uncoupled scalar/vector/tensor perturbations of non-rotating black 
 holes in modified gravity theories. General Relativity corrections 
 are assumed to be small deviations of Einstein's theory
+
+REFERENCE PAPER
+
+++ Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes
 
 @article{PhysRevD.100.044061,
   title = {Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes},
@@ -26,7 +29,6 @@ are assumed to be small deviations of Einstein's theory
   url = {https://link.aps.org/doi/10.1103/PhysRevD.100.044061}
   }
 
-
 ------------------------------------------------------------------------------------
 
 ++ data_QNM_II.zip [Phys. Rev. D. 100 0440161 (2019)]
@@ -34,6 +36,10 @@ are assumed to be small deviations of Einstein's theory
 Quasi Normal mode frequencies for generic coupled scalar/vector/tensor 
 perturbations of non-rotating black holes in modified gravity theories. 
 We also provide quadratic corrections to the uncoupled perturbations.
+
+REFERENCE PAPER
+
+++ Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes
 
 @article{PhysRevD.100.044061,
   title = {Parametrized black hole quasinormal ringdown. II. Coupled equations and quadratic corrections for nonrotating black holes},
