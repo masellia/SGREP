@@ -1,0 +1,18 @@
+The MATHEMATICA file contains equations describing axial and polar perturbations sourced 
+by a particle in orbital motion around a non-rotating black hole embedded within a spherycally 
+symmetric matter distribution. Perturbations are computed with a two-parameter expansion in terms 
+of the binary mass ratio and the ratio between the environmental and the BH densities.
+
+REFERENCE PAPERS
+
+++ A multi-parameter expansion for the evolution of asymmetric binaries in astrophysical environments
+
+@article{Datta:2025ruh,
+    author = "Datta, Sayak and Maselli, Andrea",
+    title = "{A multi-parameter expansion for the evolution of asymmetric binaries in astrophysical environments}",
+    eprint = "2507.04471",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    month = "7",
+    year = "2025"
+}
