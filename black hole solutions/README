@@ -1,21 +1,20 @@
-THE REPOSITORY PROVIDES THE FORM OF THE METRIC FUNCTIONS AND OF 
-AUXILIARY FIELDS (AS SCALAR) FOR BLACK HOLE SOLUTIONS IN 
-MODIFIED THEORIES OF GRAVIY. THE GEODESIC STRUCTURE FOR 
-MASSIVE/MASSLESS PARTICLES IS ALSO PROVIDED.
+The repository provides the form of the metric functions and of auxiliary 
+fields (as scalars) for black hole solutions in modified theories of gravity. 
+The geodesic structure for massive/massless particles is also provided.
 
-DEPENDING ON THE THEROY, QUANTITIES ARE GIVEN IN DIFFERENT 
-FUNCTIONAL FORMS, E.G. AS SMALL SPIN EXPANSION OF THE BH SPIN AND 
-OF THE THEORY COUPLING PARAMENTER (more details in main.nb)
+Depending on the theory, quantities are given in different functional forms, 
+e.g., as small-spin expansions of the BH spin and of the theory coupling 
+parameter (more details in main.nb).
 
-THEORIES COVERED
-
-- EINSTEIN DILATON GAUSS BONNET GRAVITY 
-- DYNAMICAL CHERN SIMONS GRAVITY
-- EFFECTIVE FIELD THEORY EXTENSSION OF GENERAL RELATIVITY
+Theories covered:
+	•	Einstein–dilaton–Gauss–Bonnet gravity
+	•	Dynamical Chern–Simons gravity
+	•	Effective field theory extension of general relativity
 
 REFERENCE PAPERS
 
-++ Einstein Dilaton Gauss Bonnet Gravity [Phys. Rev. D 92 083014 (2015)]
+++ Einstein Dilaton Gauss Bonnet Gravity
+++ Rotating black holes in Einstein-Dilaton-Gauss-Bonnet gravity with finite coupling
 
 @article{Maselli:2015tta,
     author = "Maselli, Andrea and Pani, Paolo and Gualtieri, Leonardo and Ferrari, Valeria",
@@ -31,10 +30,10 @@ REFERENCE PAPERS
     year = "2015"
 }
 
-
 ------------------------------------------------------------------------------------
 
-++ Dynamical Chern Simons Gravity [Astrophys. J. 843 1, 25 (2017)]
+++ Dynamical Chern Simons Gravity
+++ Geodesic models of quasi-periodic-oscillations as probes of quadratic gravity
 
 @article{Maselli:2017kic,
     author = "Maselli, Andrea and Pani, Paolo and Cotesta, Roberto and Gualtieri, Leonardo and Ferrari, Valeria and Stella, Luigi",
@@ -50,10 +49,10 @@ REFERENCE PAPERS
     year = "2017"
 }
 
-
 ------------------------------------------------------------------------------------
 
 ++ Effective Field Theory extension of General Relativity [Phys. Rev. Lett. 121 251105 (2018)]
+++ Black Holes in an Effective Field Theory Extension of General Relativity
 
 @article{Cardoso:2018ptl,
     author = "Cardoso, Vitor and Kimura, Masashi and Maselli, Andrea and Senatore, Leonardo",
