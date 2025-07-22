@@ -1,8 +1,7 @@
-THE REPOSITORY PROVIDES A MATHEMATICA PACKAGE TO INTEGRATE THE AXIAL AND POLAR
-PERTURBATIONS FOR A SCHWARZSCHILD BH SURROUNDED BY AN HALO. THE NOTEBOOK fluxes.nb 
-CONTAINS A BASIC TUTORIAL TO USE THE VARIOUS FUNCTIONS NEEDED TO COMPUTE THE 
-GRAVITATIONAL WAVE FLUXES AT INFINITY. AUXILIARY FILES ARE CONTAINED WITHIN THE 
-src FOLDER.
+THE REPOSITORY PROVIDES A MATHEMATICA PACKAGE TO INTEGRATE THE AXIAL AND POLAR PERTURBATIONS 
+FOR A SCHWARZSCHILD BH SURROUNDED BY A DARK MATTER HALO FOLLOWING THE HERNQUIST DENSITY PROFILE. 
+THE NOTEBOOK fluxes.nb CONTAINS A BASIC TUTORIAL TO USE THE VARIOUS FUNCTIONS NEEDED TO COMPUTE 
+THE GRAVITATIONAL WAVE FLUXES AT INFINITY. AUXILIARY FILES ARE CONTAINED WITHIN THE src FOLDER.
 
 REFERENCE PAPERS
 
@@ -19,5 +18,22 @@ REFERENCE PAPERS
     volume = "129",
     number = "24",
     pages = "241103",
+    year = "2022"
+}
+
+
+++ Black holes in galaxies: Environmental impact on gravitational-wave generation and propagation [Phys. Rev. Lett. 105 L061501 (2022)]
+
+@article{Cardoso:2021wlq,
+    author = "Cardoso, Vitor and Destounis, Kyriakos and Duque, Francisco and Macedo, Rodrigo Panosso and Maselli, Andrea",
+    title = "{Black holes in galaxies: Environmental impact on gravitational-wave generation and propagation}",
+    eprint = "2109.00005",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    doi = "10.1103/PhysRevD.105.L061501",
+    journal = "Phys. Rev. D",
+    volume = "105",
+    number = "6",
+    pages = "L061501",
     year = "2022"
 }
